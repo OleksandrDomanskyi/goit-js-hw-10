@@ -48,7 +48,7 @@ function countryInfoMarkup(countries) {
     const foundCountryInfo = countries;
     return foundCountryInfo
         .map(({ name, capital, population, flags, languages }) =>
-            `<h1><img src="${flags.png}" alt="${name.official}" width="40" height="40">${name.official}</h1>
+            `<h1><img src="${flags.png}" alt="${name.official}" width="80" height="60">${name.official}</h1>
             <p>Capital: ${capital}</p>
             <p>Population: ${population}</p>
             <p>Languages: ${Object.values(languages)}</p>`,
